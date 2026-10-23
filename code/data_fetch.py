@@ -24,7 +24,7 @@ class Data_fetch:
             
         return {'steps':steps, 'kcal': kcal, 'mpa': mpa}
 
-    def location_finder(self, zipcode:str="7511"):
+    def location_finder(self, zipcode:str):
         country = "NL"
 
         url = (
