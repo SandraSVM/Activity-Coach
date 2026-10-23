@@ -126,15 +126,3 @@ class Data_fetch:
         
         return restricted_workout_location
     
-
-#Common weather fields:
-#'''temperature_2m
-#apparent_temperature
-#relative_humidity_2m
-#precipitation
-#rain
-#snowfall
-#cloud_cover
-#wind_speed_10m
-#wind_direction_10m
-#surface_pressure'''
