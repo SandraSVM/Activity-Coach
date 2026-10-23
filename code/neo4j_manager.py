@@ -46,7 +46,7 @@ class Neo4j_manager:
         )
         results = []
         for char in return_chars:
-            results.append([record.data()[char] for record in records]) #the 'a' character changes, based on what we use in the RETURN of the query
+            results.append([record.data()[char] for record in records])
 
         return results
 
